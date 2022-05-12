@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./images/Background.png");
+    background-size: cover;
+}
+
+nav {
+    color:white;
+}
+
+nav .Logo {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-width: 0;
+    width: 140px;
+    left: 100px;
+    top: 20px;
+}
+
+nav .Logo h2 {
+    position: relative;
+    left: 10px;
+    top: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+nav .Menu ul {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-style: solid;
+    border-width: 0;
+    width: 810px;
+    list-style:none;
+    left: 900px;
+    bottom: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav .Menu ul .Menu-Button {
+    cursor: pointer;
+}
+
+nav .Social-Media .Facebook .IFacebook {
+    font-size: 23px;
+}
+
+nav .Social-Media .Twitter .ITwitter {
+    font-size: 23px;
+}
+
+nav .Social-Media {
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-width: 0;
+    width: 60px;
+    justify-content: space-between;
+    position: relative;
+    left: 1750px;
+    bottom: 25px;
+}
+
+nav .Social-Media .Facebook {
+    cursor: pointer;
+}
+
+nav .Social-Media .Twitter {
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: Roboto-Medium;
+    src: url("/assets/fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url("/assets/fonts/Roboto-Light.ttf");
+}
+
+#Home-Page .Info h1 {
+    font-size: 80px;
+    font-family: Roboto-Medium;
+    color: white;
+}
+
+#Home-Page .Info p {
+    position: relative;
+    font-size: larger;
+    font-family: Roboto-Medium;
+    color: white;
+    top: 17px;
+}
+
+#Home-Page .Info .Button {
+    position: relative;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 30px;
+    width: 170px;
+    height: 60px;
+    top: 60px;
+    transition-duration: 250ms;
+    cursor: pointer;
+}
+
+#Home-Page .Info .Button h4 {
+    font-family: Roboto-Light;
+    color: white;
+    padding-left: 45px;
+    padding-top: 18px;
+}
+
+#Home-Page .Info .Button:hover {
+    background-color: white;
+}
+
+#Home-Page .Info .Button:hover h4{
+    color: black;
+}
+
+#Home-Page .Form {
+    border-style: solid;
+    border-width: 0;
+    background-color: white;
+    width: 400px;
+    height: 370px;
+    border-radius: 5px;
+}
+
+#Home-Page {
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-width: 0;
+    width: 1250px;
+    justify-content: space-between;
+    position: relative;
+    left: 300px;
+    top: 150px;
+}
+
+#Home-Page .Form .Form-Data {
+    left: 35px;
+    top: 40px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    border-style: solid;
+    border-width: 0;
+    width: 325px;
+    height: 200px;
+}
+
+#Home-Page .Form .Form-Data input {
+    width: 325px;
+    height: 40px;
+    font-size: 15px;
+}
+
+#Home-Page .Form .Form-Data .Select {
+    width: 325px;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 17px;
+    opacity: 0.6;
+}
+
+#Home-Page .Form .Form-Data input::placeholder {
+    padding-left: 20px;
+}
+
+#Home-Page .Form-Policy {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-width: 0;
+    width: 348px;
+    justify-content: space-between;
+    left: 35px;
+    top: 60px;
+}
+
+#Home-Page .Form-Policy p {
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+}
+
+#Home-Page .Form-Button {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #FD6F2D;
+    background-color: #FD6F2D;
+    border-radius: 30px;
+    width: 335px;
+    height: 60px;
+    position: relative;
+    left: 30px;
+    top: 80px;
+    transition-duration: 250ms;
+    cursor: pointer;
+}
+
+#Home-Page .Form-Button h4 {
+    font-family: Roboto-Light;
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+}
+
+#Home-Page .Form-Button:hover {
+    background-color: white;
+}
+
+#Home-Page .Form-Button:hover h4 {
+    color: black;
+}
